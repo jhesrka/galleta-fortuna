@@ -33,7 +33,7 @@
     
     width: 100%;
     aspect-ratio: 16/9;
-    background-image: url('rectangle1.svg');
+    background-image: url('/public/rectangle1.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
