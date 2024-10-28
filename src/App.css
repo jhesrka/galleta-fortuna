@@ -19,7 +19,7 @@
     background-color: rgba(255, 255, 255, 0.348);
     padding: 1rem;
     border-radius: 15px;
-    max-width: 80%;
+    max-width: 350px;
     max-height: 80%;
 
 }
@@ -31,13 +31,14 @@
 }
 .card{
     
-    width: 100%;
+    width: 90%;
     aspect-ratio: 16/9;
     background-image: url('/public/rectangle1.svg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     animation: float 3s ease-in-out infinite;
+    padding:  2rem 0;
 }
 .card_body{
     display: flex;
@@ -49,6 +50,7 @@
 }
 .phrase, .author{
     text-align: center;
+    max-width: 80%;
     color: cornflowerblue;
 }
 
